@@ -1,0 +1,93 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  background:#11203f;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: "Numans", sans-serif;
+  color: #8dc4ff;
+}
+
+
+.city-name{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #8dc4ff;
+  text-align: center;
+}
+
+.logo{
+  font-size: 15px;
+  line-height: 90%;
+  font-weight: bolder;
+  color: #8dc4ff !important;
+}
+.temp-icon{
+  color :#8dc4ff;
+  font-size: 40px;
+  margin-right: 10px;
+}
+.search-input{
+  background-color: rgba(221, 221, 221, 0);
+  border:1px solid #8dc4ff ;
+  color: #fff !important;
+  width: 350px !important;
+  border-radius: 0px;
+}
+.search-input::placeholder{
+  color:#8dc4ff ;
+}
+.search-input:hover,
+.search-input:focus,
+.search-input:active{
+  background-color:  rgba(221, 221, 221, 0);
+  border:1px solid #8dc4ff ;
+}
+
+.main-deta{
+  border:3px solid  #8dc4ff;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+.temp{
+  font-size: 120px;
+  color: #8dc4ff;
+  text-align: center;
+}
+.temp sup{
+  font-size: 30px;
+  top: -65px;
+}
+.fa-sun{
+  font-size: 50px;
+}
+.tempmax-min:not(sup){
+  font-size: 20px;
+  font-weight: 700;
+}
+p{
+  margin-bottom: 0px;
+}
+
+.brdr{
+  border-left: 2px solid #8dc4ff;
+}
+
+.icon{
+  width: 25%;
+  height: 25%;
+}
+.secendery-data{
+  font-size: 20px;
+  margin-top: 8px;
+}
+.secendery-data span{
+  font-size: 12px;
+}
